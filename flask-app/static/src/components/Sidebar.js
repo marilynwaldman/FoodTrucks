@@ -180,7 +180,7 @@ class Sidebar extends React.Component {
       <Vendor key={i} data={r} handleHover={this.handleHover} />
     ));*/
     const listItems = results.map((site) =>
-            <li> <p className="truck-name">key={site.city}>{site.city}</p> </li>)
+            <li> <p className="truck-name">key=city -->{site.city}</p> </li>)
 
 
 
